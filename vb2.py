@@ -28,7 +28,7 @@ else:
 #vipro.loginResult()
 
 ki = VIPRO.LINE()
-ki.login(token="token")
+ki.login(token="EsiQtk79w4wrjvyupPx7.i9Bg/51omKwkeRUFi/fEHW.gOP61/5TCdFZop0Qe1Q9YKg/FGFOq70wdTADjn+U0E8=")
 ki.loginResult()
 
 #ki2= VIPRO.LINE()
@@ -342,10 +342,10 @@ kimid = ki.getProfile().mid
 #ki9mid = ki9.getProfile().mid
 #ki10mid = ki10.getProfile().mid
 #Smid = owner.getProfile().mid
-Bots=[kimid,"uda936836a9869eb86ec8ab992a4e8979"]
-admin=[kimid,"uda936836a9869eb86ec8ab992a4e8979"]
-creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admsa=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=[kimid,"u23d6c6fb9d4e32458a12bb9f23e15e87"]
+admin=[kimid,"u23d6c6fb9d4e32458a12bb9f23e15e87"]
+creator=["u23d6c6fb9d4e32458a12bb9f23e15e87"]
+admsa=["u23d6c6fb9d4e32458a12bb9f23e15e87"]
 
 readOpen = codecs.open("st2__b.json","r","utf-8")
 read = json.load(readOpen)
