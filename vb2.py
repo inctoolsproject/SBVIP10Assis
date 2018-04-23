@@ -19,53 +19,53 @@ else:
     import urllib.request
     import urllib.parse
 
-owner = VIPRO.LINE() #Akun Utama
-owner.login(token="token")
-owner.loginResult()
+#owner = VIPRO.LINE() #Akun Utama
+#owner.login(token="token")
+#owner.loginResult()
     
-vipro = VIPRO.LINE()
-vipro.login(token="token")
-vipro.loginResult()
+#vipro = VIPRO.LINE()
+#vipro.login(token="token")
+#vipro.loginResult()
 
 ki = VIPRO.LINE()
 ki.login(token="token")
 ki.loginResult()
 
-ki2= VIPRO.LINE()
-ki2.login(token="token")
-ki2.loginResult()
+#ki2= VIPRO.LINE()
+#ki2.login(token="token")
+#ki2.loginResult()
 
-ki3 = VIPRO.LINE()
-ki3.login(token="token")
-ki3.loginResult()
+#ki3 = VIPRO.LINE()
+#ki3.login(token="token")
+#ki3.loginResult()
 
-ki4 = VIPRO.LINE()
-ki4.login(token="token")
-ki4.loginResult()
+#ki4 = VIPRO.LINE()
+#ki4.login(token="token")
+#ki4.loginResult()
 
-ki5 = VIPRO.LINE()
-ki5.login(token="token")
-ki5.loginResult()
+#ki5 = VIPRO.LINE()
+#ki5.login(token="token")
+#ki5.loginResult()
 
-ki6 = VIPRO.LINE()
-ki6.login(token="token")
-ki6.loginResult()
+#ki6 = VIPRO.LINE()
+#ki6.login(token="token")
+#ki6.loginResult()
 
-ki7 = VIPRO.LINE()
-ki7.login(token="token")
-ki7.loginResult()
+#ki7 = VIPRO.LINE()
+#ki7.login(token="token")
+#ki7.loginResult()
 
-ki8 = VIPRO.LINE()
-ki8.login(token="token")
-ki8.loginResult()
+#ki8 = VIPRO.LINE()
+#ki8.login(token="token")
+#ki8.loginResult()
 
-ki9 = VIPRO.LINE()
-ki9.login(token="token")
-ki9.loginResult()
+#ki9 = VIPRO.LINE()
+#ki9.login(token="token")
+#ki9.loginResult()
 
-ki10 = VIPRO.LINE() #Ghost
-ki10.login(token="token")
-ki10.loginResult()
+#ki10 = VIPRO.LINE() #Ghost
+#ki10.login(token="token")
+#ki10.loginResult()
 print "═══「vipro login success」═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -328,39 +328,39 @@ translateMessage ="""
 ╠╩═══════════════
 ╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
 """
-KAC=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
-DEF=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
-mid = vipro.getProfile().mid
+KAC=[ki]
+DEF=[ki]
+#mid = vipro.getProfile().mid
 kimid = ki.getProfile().mid
-ki2mid = ki2.getProfile().mid
-ki3mid = ki3.getProfile().mid
-ki4mid = ki4.getProfile().mid
-ki5mid = ki5.getProfile().mid
-ki6mid = ki6.getProfile().mid
-ki7mid = ki7.getProfile().mid
-ki8mid = ki8.getProfile().mid
-ki9mid = ki9.getProfile().mid
-ki10mid = ki10.getProfile().mid
-Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"uda936836a9869eb86ec8ab992a4e8979"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"uda936836a9869eb86ec8ab992a4e8979","ue4e13b0a41d848845489374e671c6861","ub21eb3d440e0dfd640eef9f2fb5ce02d","u782cdf7a9fd2545c84a0cd86f418e9f7","u799da4e06d50e1775cfcff1f3e59df03"]
+#ki2mid = ki2.getProfile().mid
+#ki3mid = ki3.getProfile().mid
+#ki4mid = ki4.getProfile().mid
+#ki5mid = ki5.getProfile().mid
+#ki6mid = ki6.getProfile().mid
+#ki7mid = ki7.getProfile().mid
+#ki8mid = ki8.getProfile().mid
+#ki9mid = ki9.getProfile().mid
+#ki10mid = ki10.getProfile().mid
+#Smid = owner.getProfile().mid
+Bots=[kimid,"uda936836a9869eb86ec8ab992a4e8979"]
+admin=[kimid,"uda936836a9869eb86ec8ab992a4e8979"]
 creator=["uda936836a9869eb86ec8ab992a4e8979"]
 admsa=["uda936836a9869eb86ec8ab992a4e8979"]
 
 readOpen = codecs.open("st2__b.json","r","utf-8")
 read = json.load(readOpen)
 
-contact = vipro.getProfile()
-restoreprofile = vipro.getProfile()
-restoreprofile.displayName = contact.displayName
-restoreprofile.statusMessage = contact.statusMessage                        
-restoreprofile.pictureStatus = contact.pictureStatus
+#contact = vipro.getProfile()
+#restoreprofile = vipro.getProfile()
+#restoreprofile.displayName = contact.displayName
+#restoreprofile.statusMessage = contact.statusMessage                        
+#restoreprofile.pictureStatus = contact.pictureStatus
 
-contact = vipro.getProfile()
-backup = vipro.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = vipro.getProfile()
+#backup = vipro.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
 contact = ki.getProfile()
 backup = ki.getProfile()
@@ -368,53 +368,53 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-contact = ki2.getProfile()
-backup = ki2.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki2.getProfile()
+#backup = ki2.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki3.getProfile()
-backup = ki3.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki3.getProfile()
+#backup = ki3.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki4.getProfile()
-backup = ki4.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki4.getProfile()
+#backup = ki4.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki5.getProfile()
-backup = ki5.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki5.getProfile()
+#backup = ki5.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki6.getProfile()
-backup = ki6.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki6.getProfile()
+#backup = ki6.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki7.getProfile()
-backup = ki7.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki7.getProfile()
+#backup = ki7.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki8.getProfile()
-backup = ki8.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki8.getProfile()
+#backup = ki8.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
-contact = ki9.getProfile()
-backup = ki9.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki9.getProfile()
+#backup = ki9.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
 wait = {
     'contact':False,
